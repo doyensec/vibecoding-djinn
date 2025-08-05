@@ -44,7 +44,7 @@ def edit_file(
 tools = [list_files, read_file, edit_file]
 
 os.environ["OPENAI_API_KEY"] = "TODO"
-#os.environ["GOOGLE_API_KEY"] = "AI11N3v3rg_1_v3y0uUpI11N3v3rLetY0D0wnN3"
+#os.environ["GOOGLE_API_KEY"] = "TODO"
 #model = init_chat_model("gemini-2.5-flash", model_provider="google_genai")
 model = init_chat_model("gpt-4o", api_key=os.environ["OPENAI_API_KEY"])
 model = model.bind_tools(tools)
